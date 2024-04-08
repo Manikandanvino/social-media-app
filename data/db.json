@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "my first post",
+      "datetime": "july 15,2021 8:40:50 AM",
+      "body": "Celeprating the power of creativity and imagination,Here's to dreaming big and turning ideas into reality! #CreativityUnleashed #DreamBig"
+    },
+    {
+      "id": 2,
+      "title": "my 2nd post",
+      "datetime": "july 16,2022 7:40:40 PM",
+      "body": "Taking a break from the bustle to savor the beauty of nature.Sometimes, all you neeed in a moment of tranquility. #NatureLove #PeacefulMind"
+    },
+    {
+      "id": 3,
+      "title": "my 3rd post",
+      "datetime": "july 17,2023 1:40:20 AM",
+      "body": "third post.....Channelling positive vibes and spreading smailes wherever i go.#PositiveEnergy #SpreadLove #GoodVibesOnly"
+    },
+    {
+      "id": 4,
+      "title": "my 4th post",
+      "datetime": "march 18,2024 10:30:10 PM",
+      "body": "fourth post....Feeling grateful for simple joys in life:good company, laughter, and the warmth of the sun on my face. #Gratitude #SimpplePleasures"
+    },
+    {
+      "id": 5,
+      "title": "my 5th post",
+      "datetime": "march 19,2024 11:40:30 AM",
+      "body": "fifth post....Exploring new horizons and embabracing every monent with open arms.#AdventureAwaits #Discovermore #LifeAnAdventure"
+    }
+  ]
+}
