@@ -22,7 +22,7 @@ function App() {
    useEffect(()=>{
        const fetchPosts = async()=>{
         try{
-          const responce = await axios.get('http://localhost:3000/posts');
+          const responce = await axios.get('https://json-server-utrs.onrender.com/posts');
           setPosts(responce.data);
         }catch(err){
           if(err){
@@ -51,7 +51,7 @@ function App() {
     const datetime = format(new Date(), 'MMMM dd, yyyy pp');
     const newPost = { id, title: postTitle, datetime, body: postBody };
     try{
-      const responce = await axios.post('http://localhost:3000/posts',newPost)
+      const responce = await axios.post('https://json-server-utrs.onrender.com/posts',newPost)
       const allPosts = [...posts, responce.data];
       setPosts(allPosts);
       setPostTitle('');
@@ -71,7 +71,7 @@ function App() {
 
     const handleDelete = async (id)=>{
       try{
-        await axios.delete(`http://localhost:3000/posts/${id}`)
+        await axios.delete(`https://json-server-utrs.onrender.com/posts/${id}`)
         const postsList =posts.filter(post=>post.id!==id);
         setPosts(postsList);
         navigate('/');
